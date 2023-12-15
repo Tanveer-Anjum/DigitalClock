@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body::before{
+    content: "";
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+    position: absolute;
+    background:url('https://cdn.vectorstock.com/i/1000x1000/77/28/blank-black-smart-watch-icon-on-white-background-vector-43307728.webp');
+    background-size: cover;
+    background-position-y:center ;
+}
+#continer{
+    margin-top: 70px;
+    margin-left: 268px;
+    font-size: 50px;
+
+}
+
+
+#time {
+    margin-top: 30px;
+    margin-left: 285px;
+    font-size: 30px;
+}
+#Clock {
+    background-color: transparent;
+    width: 47%;
+    height: 297px;
+    margin: 175px 246px;
+    border-radius: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 255, 0);
+    font-family: sans-serif;
+    font-size: 60px;
+}
